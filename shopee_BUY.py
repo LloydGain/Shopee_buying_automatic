@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # 用cmd 到 C:program files\google\chrome\application 執行下面指令開啟chrome
 # chrome.exe --remote-debugging-port=9527 --user-data-dir="D:\selenium\AutomationProfile"
 
-#讓程式控制你已經開啟好，並登入蝦皮的那個Chrome瀏覽器
+# 要先在開啟的chrome登入蝦皮才能知道購物車內容
 options = Options()
 options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
 
